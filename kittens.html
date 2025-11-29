@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Котята - KittyCat</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="cats.css">
+</head>
+<body>
+    <div class="container py-4">
+        <!-- Шапка -->
+        <div class="header text-center mb-4">
+             <h1 class="display-4"><span id="naverh">KITTYCAT</span></h1>
+            <p class="lead">Подарите дом пушистому другу!</p>
+        </div>
+
+        <!-- Навигация -->
+        <div class="navigation mb-5">
+            <ul class="nav-list nav justify-content-center flex-wrap">
+                <li class="nav-item"><a class="nav-link" href="./cats.html">Взрослые котики</a></li>
+                <li class="nav-item"><a class="nav-link active" a href="#kittens" href="./kittens.html"  style="color: #ea9797 ;">Котята</a></li>
+                <li class="nav-item"><a class="nav-link" href="./log.html">Зарегистрироваться</a></li>
+                <li class="nav-item"><a class="nav-link" href="./form.html">Забрать котика домой</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://pushok-vet.ru/" target="_blank">Наши партнеры</a></li>
+            </ul>
+        </div>
+
+        <!-- Заголовок -->
+        <h2 class="text-center mb-4 section-title"><span id="kittens">Котята</span></h2>
+
+        <!-- Контейнер для карточек с котятами -->
+        <div id="kittensContainer" class="row g-4">
+            <!-- Карточки будут генерироваться через JavaScript -->
+        </div>
+
+        <!-- Кнопка на главную -->
+        <div class="text-center mt-5">
+            <a href="./index.html" class="btn home-btn">На главную</a>
+             <a href="#naverh" class="btn home-btn" >Наверх</a>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="kittens.js"></script>
+</body>
+</html>
